@@ -1,0 +1,20 @@
+{
+  "name": "vuepress-proxy-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "server:start": "node server",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Harris <tomharris@alphafx.co.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.47"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
